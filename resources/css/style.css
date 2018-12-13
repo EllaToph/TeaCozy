@@ -103,7 +103,6 @@ nav a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: black;
 }
   .Local .items {
     width: 300px;
@@ -111,5 +110,6 @@ nav a {
     margin-top: 15px;
     opacity: 1;
     justify-content: center;
+    background-color: black !important;
 
   }
