@@ -58,27 +58,35 @@ nav a {
 }
 /*5pics&content*/
 .content2{
-display: flex;
-align-items: center;
-width: 1000px;
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
 
 }
 .content2.Title{
   display: flex;
   align-items: center;
   color: seashell;
+  width: 1000px;
+ height: 700px;
+ padding-top: 70px;
+ margin: auto;
 }
-.content2.images{
+
+.content2{
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+}
+.images{
   display: flex;
   justify-content: center;
-  align-items: center;
- flex-wrap: wrap;
- height: 200px;
- margin: 10px;
- display: block;
-
+  flex-wrap: wrap;
 }
-.content2.image-content{
-  justify-content: center;
-  margin-top: 10px;
+.images img {
+  height: 200px;
+  margin: 10px;
+  display: block;
 }
