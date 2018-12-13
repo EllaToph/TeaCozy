@@ -56,3 +56,37 @@ nav a {
   text-align: center;
   font-family: Helvetica;
 }
+/*5pics&content*/
+.content2{
+display: flex;
+align-items: center;
+width: 1000px;
+
+}
+.content2.Title{
+  display: flex;
+  align-items: center;
+  color: seashell;
+}
+.content2.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:200px;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.images2{
+  justify-content: center;
+  align-items: center;
+  height:200px;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content2.image-content{
+  justify-content: center;
+  margin-top: 10px;
+}
