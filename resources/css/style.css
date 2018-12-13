@@ -8,16 +8,15 @@ body{
 header {
   display: flex;
   align-items: center;
-  position: relative;
+  position:fixed;
   z-index: 1;
-  height: 90px;
+  height: 100px;
   width: 100%;
   font-family: Helvetica;
   font-size: 22px;
   text-decoration-color:seashell;
   background-color: black;
   border-bottom: 1px solid seashell;
-  opacity: 0.9;
 }
 .logo{
   display: flex;
@@ -98,7 +97,6 @@ nav a {
   height: 500px;
   width: 1200px;
   background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  display: flex;
   justify-content: center;
   text-align: center;
   }
@@ -108,9 +106,9 @@ nav a {
   flex-wrap: wrap;
 }
 .loca{
-  display: flex;
   text-align: center;
 }
+
   .Local .items{
     width: 300px;
     margin-right: 40px;
@@ -120,6 +118,14 @@ nav a {
     background-color: black;
     height:300px;
     text-align: center;
-
-
-  }
+    line-height: 300%;
+}
+.footer .Phone{
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+  .copyright{
+  text-align: left;
+  margin-left: 20px;
+}
