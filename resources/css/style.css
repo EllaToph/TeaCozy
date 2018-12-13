@@ -98,18 +98,28 @@ nav a {
   height: 500px;
   width: 1200px;
   background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  justify-content: center;
+  text-align: center;
   }
 .Local{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-  .Local .items {
+.loca{
+  display: flex;
+  text-align: center;
+}
+  .Local .items{
     width: 300px;
     margin-right: 40px;
     margin-top: 15px;
     opacity: 1;
     justify-content: center;
-    background-color: black !important;
+    background-color: black;
+    height:300px;
+    text-align: center;
+
 
   }
