@@ -103,12 +103,13 @@ nav a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: black;
 }
-  .Local.items {
+  .Local .items {
     width: 300px;
     margin-right: 40px;
     margin-top: 15px;
     opacity: 1;
-    background-color: black;
     justify-content: center;
+
   }
