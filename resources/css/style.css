@@ -11,7 +11,7 @@ header {
   position:fixed;
   z-index: 1;
   height: 100px;
-  width: 100%;
+  width: 99%;
   font-family: Helvetica;
   font-size: 22px;
   text-decoration-color:seashell;
@@ -35,6 +35,7 @@ nav a {
   display: inline-block;
   text-decoration: underline;
   color: seashell;
+  width:auto;
 
 }
 
@@ -81,11 +82,14 @@ nav a {
   height: 700px;
   padding-top: 70px;
   margin: auto;
+
 }
 .images{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-size: 22px;
+  font-weight: bold;
 }
 .images img {
   height: 200px;
@@ -107,6 +111,11 @@ nav a {
 }
 .loca{
   text-align: center;
+  margin-bottom: 10px;
+  margin-top:5px;
+  padding-right: 20px;
+  padding-top: 44px;
+  padding-right: 22px;
 }
 
   .Local .items{
@@ -118,7 +127,8 @@ nav a {
     background-color: black;
     height:300px;
     text-align: center;
-    line-height: 300%;
+    line-height: 250%;
+    font-size: 18px;
 }
 .footer .Phone{
   align-items: center;
